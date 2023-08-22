@@ -4,9 +4,9 @@ import time
 import urllib.request
 
 driver = webdriver.Chrome()
-driver.get("https://www.google.co.kr/imghp?hl=ko&tab=wi&authuser=0&ogbl")
+driver.get("https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl")
 elem = driver.find_element_by_name("q")
-elem.send_keys("조코딩")
+elem.send_keys("amazon")
 elem.send_keys(Keys.RETURN)
 
 SCROLL_PAUSE_TIME = 1
